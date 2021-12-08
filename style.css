@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1f2937;
+    margin: 0;
+    background: linear-gradient(to top left, rgb(228, 227, 232) 0%, rgb(231, 232, 240) 70%);
+  }
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    max-width: 1000px;
+    height: 86px;
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+  
+  .site-logo {
+    margin: 0;
+  
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1f2937;
+  }
+  .site-logo:hover,
+  .site-logo:focus {
+   color: #6c82ac;
+  }
+  
+  .site-nav a {
+    margin-left: 42px;
+  
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1f2937;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus {
+    color: #6c82ac;
+  }
+  
+  .intro-section {
+    margin-top: 100px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .intro-section img {
+    width: 250px;
+    height: 250px;
+    border: 8px solid #ede9fe;
+    border-radius: 50%;
+  }
+  
+  .intro-section h1 {
+    margin: 0;
+    padding-left: 30px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #4b5563;
+  }
+  
+  .intro-section .highlight-name {
+    display: block;
+    color: #7c3aed;
+  
+    animation-name: change-colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .banner-image {
+    height: 720px;
+  
+    background-image: url("Astronaut.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .section {
+    max-width: 760px;
+    padding: 0 24px;
+    margin: 150px auto;
+  }
+  
+  .section h2 {
+    margin-bottom: 42px;
+  
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #4b5563;
+  }
+  
+  .about-section h2 {
+    display: none;
+  }
+  
+  .work {
+    padding: 32px 42px;
+    margin-bottom: 32px;
+    border-radius: 5px;
+  
+    background-color: #f9fafb;
+  }
+  
+  .work-title {
+    margin: 0;
+  
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+  }
+  
+  .work-dates {
+    margin: 0;
+  
+    font-size: 14px;
+    line-height: 24px;
+    color: #4b5563;
+  }
+  
+  .work-description {
+    margin-bottom: 0;
+  }
+  
+  .contact-section {
+    max-width: 712px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-radius: 5px;
+  
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #7a5fb8, #a076e2a6);
+  }
+  
+  .contact-section h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+  
+    color: #ffffff;
+  }
+  
+  .contact-section p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-section .email-button {
+    display: inline-block;
+    padding: 14px 42px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    border-radius: 5px;
+  
+    font-weight: bold;
+    color: #65548f;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .contact-section .email-button:hover{
+      background-color: #f2e2f3;
+  }
+  
+  .site-footer {
+    padding: 42px 24px;
+  
+    text-align: center;
+    background-color: #f9fafb;
+  }
+  
+  .site-footer p {
+    margin: 0;
+  
+    color: #4b5563;
+  }
+  @keyframes change-colors {
+    0% {
+      color: #704ebe;
+    }
+  
+    50% {
+      color: #4c72f1;
+    }
+  
+    100% {
+      color: #7c3aed;
+    }
+  }
